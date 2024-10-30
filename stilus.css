@@ -9,9 +9,6 @@ ul {
     margin-right: auto;
 }
   
-li {
-    float: left;
-}
   
 li a {
     display: block;
@@ -19,6 +16,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    float: left;
 }
   
 li a:hover:not(.active) {
@@ -50,4 +48,7 @@ li a:hover:not(.active) {
     margin-right: auto;
     text-align: center;
     border-top: 1px solid black;
+}
+h1{
+    border-bottom: 2px solid black ;
 }
